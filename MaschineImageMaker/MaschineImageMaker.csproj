@@ -1,0 +1,50 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>WinExe</OutputType>
+		<TargetFramework>net6.0-windows</TargetFramework>
+		<Nullable>disable</Nullable>
+		<UseWPF>true</UseWPF>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<ApplicationIcon>AppIcon.ico</ApplicationIcon>
+		<Authors>Tim Stephansen</Authors>
+		<Description>A windows app that helps you create custom images for Maschine 2 libraries.</Description>
+		<Copyright>Tim Stephansen 2022</Copyright>
+		<PackageProjectUrl>https://github.com/tstephansen/MaschineImageMaker</PackageProjectUrl>
+		<PackageIcon>MaschineImageMaker.png</PackageIcon>
+		<PackageReadmeFile>ReadMe.md</PackageReadmeFile>
+		<RepositoryUrl>git@github.com:tstephansen/MaschineImageMaker.git</RepositoryUrl>
+		<RepositoryType>git</RepositoryType>
+		<PackageTags>Maschine</PackageTags>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <None Remove="NILogo.png" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="MaterialDesignThemes" Version="4.4.0" />
+		<PackageReference Include="Prism.Wpf" Version="8.1.97" />
+		<PackageReference Include="System.Drawing.Common" Version="6.0.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Resource Include="NILogo.png" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Compile Update="Properties\Settings.Designer.cs">
+	    <DesignTimeSharedInput>True</DesignTimeSharedInput>
+	    <AutoGen>True</AutoGen>
+	    <DependentUpon>Settings.settings</DependentUpon>
+	  </Compile>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <None Update="Properties\Settings.settings">
+	    <Generator>PublicSettingsSingleFileGenerator</Generator>
+	    <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+	  </None>
+	</ItemGroup>
+
+</Project>
