@@ -3,6 +3,12 @@
 #### What is it?
 Maschine Image Maker is a small windows application that helps you create custom images for Maschine 2 samples.
 
+![Screenshot1](https://github.com/tstephansen/MaschineImageMaker/blob/master/Screenshots/Screenshot1.png)
+
+![Screenshot2](https://github.com/tstephansen/MaschineImageMaker/blob/master/Screenshots/Screenshot2.png)
+
+![Screenshot3](https://github.com/tstephansen/MaschineImageMaker/blob/master/Screenshots/Screenshot3.png)
+
 #### How do I use it?
 - Open the software.
 - Click the "Select Image" button and pick an image you want to use.
