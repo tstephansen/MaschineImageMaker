@@ -1,7 +1,7 @@
-# NI Creator
+# Maschine Image Maker
 
 #### What is it?
-NI Creator is a small windows application that helps you create custom images for Maschine 2 samples.
+Maschine Image Maker is a small windows application that helps you create custom images for Maschine 2 samples.
 
 #### How do I use it?
 - Open the software.
