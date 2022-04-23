@@ -9,6 +9,12 @@ Maschine Image Maker is a small windows application that helps you create custom
 
 ![Screenshot3](https://github.com/tstephansen/MaschineImageMaker/blob/master/Screenshots/Screenshot3.png)
 
+#### Prerequisites:
+This software requires you to install the [.NET Desktop Runtime 6.0.4](https://dotnet.microsoft.com/en-us/download/dotnet/6.0). Please install that before downloading and trying to run the software.
+
+#### Install:
+There isn't an installer for this app. Just [download the latest release from the releases page](https://github.com/tstephansen/MaschineImageMaker/releases), extract it, and run MaschineImageMaker.exe.
+
 #### How do I use it?
 - Open the software.
 - Click the "Select Image" button and pick an image you want to use.
