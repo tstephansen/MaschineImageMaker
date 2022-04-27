@@ -19,6 +19,7 @@
 		<PackageRequireLicenseAcceptance>False</PackageRequireLicenseAcceptance>
 		<PackageLicenseFile>C:\Users\tstep\Git\MaschineImageMaker\LICENSE</PackageLicenseFile>
 		<AssemblyName>Maschine Image Maker</AssemblyName>
+		<Version>1.0.1</Version>
 	</PropertyGroup>
 
 	<ItemGroup>
