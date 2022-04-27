@@ -348,3 +348,10 @@ MigrationBackup/
 
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
+
+!Setup/x64
+!Setup/x86
+Setup/x64/Maschine Image Maker-cache/*
+Setup/x64/Setup Files/*
+Setup/x86/Maschine Image Maker-cache/*
+Setup/x86/Setup Files/*
